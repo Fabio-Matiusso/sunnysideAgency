@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
-
 
 const TriangleMenu = styled.div`
     width: 0;
@@ -11,6 +9,10 @@ const TriangleMenu = styled.div`
     border-bottom: 35px solid #fff;
     border-left: 35px solid transparent;
     position: absolute;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
 `
 
 const LiStyled = styled.li`
@@ -67,7 +69,7 @@ const Ul = styled.ul`
         display: flex;
         flex-flow: row nowrap;
         width: 700px;
-        justify-content: center;
+        justify-content: flex-end;
     @media (max-width: 768px) {
         flex-flow: column nowrap;
         background-color: #fff;

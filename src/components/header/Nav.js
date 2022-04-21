@@ -20,17 +20,20 @@ const NavStyled = styled.nav`
     }
 `
 
+const LogoHeader = styled.img`
+    @media (max-width: 860px) {
+        width: 100%;
+    }
+`
+
 
 const Nav = (props) => {
-    const {links} = props
-
-
     return(
 
             <NavStyled>
 
                 <div  className="logo">
-                    <img src = {NavLogo} />
+                    <LogoHeader src = {NavLogo} />
                 </div>
                 <Burger />
                 
