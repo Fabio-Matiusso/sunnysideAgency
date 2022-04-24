@@ -19,7 +19,6 @@
 - [x] Javascript
 - [x] ReactJs
 - [x] Styled-components
-- [x] React-router-dom
 - [x] React Hooks
 
 
