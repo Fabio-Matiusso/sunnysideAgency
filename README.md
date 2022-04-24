@@ -1,8 +1,8 @@
 <div align = "center">
-    <h1>Space Website</h1>
+    <h1>Sunnyside Agency</h1>
 </div>
 
-<p align = "center">Neste projeto pude exercitar minhas habilidades com ReactJS, Styled-components e navegação por meio do React Router Dom</p>
+<p align = "center">Neste projeto pude exercitar minhas habilidades com ReactJS, Styled-components e Hooks</p>
 
 ---
 <br>
