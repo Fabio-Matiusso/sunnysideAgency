@@ -237,8 +237,6 @@ const PhotographDesc = styled.p`
     }
 `
 
-
-
 const Services = () => {
     return(
         <ContainerGrid>
